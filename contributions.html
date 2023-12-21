@@ -1,0 +1,27 @@
+<!-- Similar structure as index.html -->
+<body>
+  <header>
+    <!-- Same header as other pages -->
+  </header>
+  <main>
+    <section>
+      <!-- Similar image and address section -->
+    </section>
+    <section>
+      <h2>Contributions</h2>
+      <form id="contributionsForm">
+        <label for="fieldOfContribution">Field of Contribution:</label>
+        <input type="text" id="fieldOfContribution" name="fieldOfContribution" required>
+        <label for="contributionDescription">Description:</label>
+        <textarea id="contributionDescription" name="contributionDescription" required></textarea>
+        <button type="button" onclick="renderContribution()">Submit</button>
+      </form>
+      <div id="renderedInfo"></div>
+    </section>
+  </main>
+  <footer>
+    <!-- Same footer as other pages -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
